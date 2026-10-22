@@ -15,7 +15,9 @@ Sleek **dark theme** 🌙 with vibrant **pink accents** 🌸, powered by persist
 
 > 🎬 *Watch the full live demonstration of Snapp! Food in action:*
 
-<!-- VIDEO_HERE -->
+
+https://github.com/user-attachments/assets/ade7659c-9292-4bad-83fd-ff27b6c81bef
+
 
 ---
 
