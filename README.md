@@ -5,9 +5,9 @@
 ![Database](https://img.shields.io/badge/Database-SQLite3-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)
 
-A modern desktop application for online food ordering and restaurant management, built with Python and CustomTkinter.  
-Two roles – Restaurant Owner 👨‍🍳 and Customer 🛍️ – with full visual menu management, live shopping cart 🛒, and order receipt tracking 📦.  
-Sleek dark theme 🌙 with vibrant pink accents 🌸, powered by persistent SQLite database storage.
+A modern **desktop application** for online food ordering and restaurant management, built with **Python** and **CustomTkinter**.  
+Two roles – **Restaurant Owner** 👨‍🍳 and **Customer** 🛍️ – with full visual menu management, live shopping cart 🛒, and order receipt tracking 📦.  
+Sleek **dark theme** 🌙 with vibrant **pink accents** 🌸, powered by persistent **SQLite** database storage.
 
 ---
 
@@ -60,28 +60,29 @@ Sleek dark theme 🌙 with vibrant pink accents 🌸, powered by persistent SQLi
 ## 🚀 Features
 
 ### 🔒 User Management
-* Sign up and sign in as Restaurant Owner 👨‍🍳 or Customer 👤
+* Sign up and sign in as **Restaurant Owner** 👨‍🍳 or **Customer** 👤
 * Modern split-screen login interface with promotional graphics 🎨
 * Password visibility toggle 👁️ and input validation
 
 ### 👨‍🍳 Restaurant Owner Dashboard
 * View restaurant menu items with visual food icons, categories, and prices 💲
-* Add ➕ / Edit ✏️ / Remove 🗑️ menu items across categories (Food 🍔, Drink 🥤, Dessert 🧁)
-* Toggle item status between Available 🟢 and Disable ⚪ in real time
+* **Add** ➕ / **Edit** ✏️ / **Remove** 🗑️ menu items across categories (Food 🍔, Drink 🥤, Dessert 🧁)
+* Toggle item status between **Available** 🟢 and **Disable** ⚪ in real time
 * Built-in image selector using high-quality food assets 🖼️
 * View all customer orders placed at the restaurant 📋
 
 ### 🛍️ Customer Dashboard
 * Browse a list of registered restaurants and cafes 🏪
 * Explore visual menu cards with real-time availability and pricing
-* Add items to the interactive Cart 🛒 with item counters (✓ 1) and instant removal (✕)
-* Checkout ✔️ to place orders with automatic total calculation
-* View complete Order History 📦 grouped by restaurant with order IDs and exact timestamps 🕒
+* Add items to the interactive **Cart** 🛒 with item counters (`✓ 1`) and instant removal (`✕`)
+* **Checkout** ✔️ to place orders with automatic total calculation
+* View complete **Order History** 📦 grouped by restaurant with order IDs and exact timestamps 🕒
 
 ---
 
 ## 🗂️ Project Architecture
 
+```text
 Snapp_Food/
 ├── assets/               # Graphical banner and food item icons
 ├── gui/
@@ -97,32 +98,37 @@ Snapp_Food/
 ├── requirements.txt      # External Python dependencies
 ├── LICENSE               # MIT License
 └── README.md             # Project documentation
+```
+
 ---
 
 ## ⚙️ Installation & Usage
 
-1. Clone the repository:
-  
-   git clone [https://github.com/FarnazZS/Snapp_Food.git](https://github.com/FarnazZS/Snapp_Food.git)
+1. **Clone the repository:**
+```bash
+   git clone https://github.com/FarnazZS/Snapp_Food.git
    cd Snapp_Food
-   
-2. Install required packages:
-  
+```
+
+2. **Install required packages:**
+```bash
    pip install -r requirements.txt
-   
-3. Run the application:
-  
+```
+
+3. **Run the application:**
+```bash
    python main.py
-   
+```
+
 ---
 
 ## 💻 Technologies
 
-* Python 3 – core programming language
-* CustomTkinter – modern dark-themed GUI framework
-* Pillow (PIL) – image processing and custom icon rendering
-* sqlite3 – built-in relational SQLite database management
-* Modular OOP – clean separation between UI (gui), business logic (models), and persistence (data_manager)
+* **Python 3** – core programming language
+* **CustomTkinter** – modern dark-themed GUI framework
+* **Pillow (PIL)** – image processing and custom icon rendering
+* **sqlite3** – built-in relational SQLite database management
+* **Modular OOP** – clean separation between UI (`gui`), business logic (`models`), and persistence (`data_manager`)
 
 ---
 
@@ -139,7 +145,7 @@ Snapp_Food/
 
 ## 📜 License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 <div align="center">
   <sub>Developed by <a href="https://github.com/FarnazZS">Farnaz Zarrabi Shirabad</a></sub>
