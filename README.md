@@ -82,7 +82,6 @@ Sleek dark theme 🌙 with vibrant pink accents 🌸, powered by persistent SQLi
 
 ## 🗂️ Project Architecture
 
-`text
 Snapp_Food/
 ├── assets/               # Graphical banner and food item icons
 ├── gui/
@@ -98,19 +97,24 @@ Snapp_Food/
 ├── requirements.txt      # External Python dependencies
 ├── LICENSE               # MIT License
 └── README.md             # Project documentation
+---
 
 ## ⚙️ Installation & Usage
 
 1. Clone the repository:
-   `bash
+  
    git clone [https://github.com/FarnazZS/Snapp_Food.git](https://github.com/FarnazZS/Snapp_Food.git)
    cd Snapp_Food
-
+   
 2. Install required packages:
-    pip install -r requirements.txt
-
+  
+   pip install -r requirements.txt
+   
 3. Run the application:
-    python main.py
+  
+   python main.py
+   
+---
 
 ## 💻 Technologies
 
