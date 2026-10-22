@@ -92,7 +92,8 @@ Snapp_Food/
 ├── models/               # Object-Oriented domain models
 │   ├── menu_item.py      # MenuItem class and item attributes
 │   ├── order.py          # Order calculation and receipt handling
-│   └── restaurant.py     # Restaurant logic and menu management
+│   ├── restaurant.py     # Restaurant logic and menu management
+│   └── user.py           # User class and authentication logic
 ├── screenshots/          # Application screenshots for documentation
 ├── app_platform.py       # Core platform state & controller
 ├── data_manager.py       # SQLite database initialization & queries
